@@ -1,1 +1,25 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    .header_top {
+        background-color: blue;
+        height: 30px;
+    }
+}
+
+main {
+    section.jumbotron {
+        background-image: url(../img/jumbotron.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 400px;
+        background-size: cover;
+    }
+}
