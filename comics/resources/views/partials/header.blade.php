@@ -28,7 +28,9 @@
                 <a class="nav-link text-uppercase  {{Route::currentRouteName() === 'shop' ? 'active' : ''}}" href="#">shop</a>
 
             </nav>
-            <input type="search" name="search" id="search">
+            <div class="input_bar">
+                <input type="search" name="search" id="search" placeholder="search">
+            </div>
         </div>
     </div>
 </header>
