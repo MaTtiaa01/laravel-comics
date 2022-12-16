@@ -119,8 +119,71 @@ main {
 footer {
     .footer_top {
         background-image: url(../img/footer-bg.jpg);
-        padding: 2rem 0;
         background-repeat: no-repeat;
         background-size: cover;
+
+        h4 {
+            color: white;
+            margin: 1rem 0;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+
+            a {
+                text-decoration: none;
+                color: gray;
+            }
+        }
+
+        p {
+            color: gray;
+            margin: 2rem 0;
+
+            a {
+                color: blue;
+            }
+        }
+
+
+        .dc_background {
+            background-image: url(../img/dc-logo-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    .footer_bottom {
+        background-color: rgb(64, 63, 63);
+        padding: 2rem 0;
+
+        .sign_up {
+            button {
+                background-color: transparent;
+                border: 1px solid blue;
+                padding: 0.8rem;
+                color: white;
+                font-weight: bold;
+            }
+        }
+
+        .follow_us {
+            &:first-child {
+                color: blue;
+            }
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+
+                img {
+                    color: white;
+                }
+            }
+        }
     }
 }
