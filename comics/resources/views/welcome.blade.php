@@ -3,8 +3,7 @@
 @section('content')
 
 
-<section class="jumbotron">
-</section>
+
 
 <section class="comics_card ">
     <div class="container text-center">

@@ -11,6 +11,11 @@ img {
     max-width: 100%;
 }
 
+.container_60 {
+    margin: auto;
+    width: 60%;
+}
+
 
 
 
@@ -54,6 +59,8 @@ header {
 }
 
 main {
+
+    // welcome
     section.jumbotron {
         background-image: url(../img/jumbotron.jpg);
         background-repeat: no-repeat;
@@ -86,5 +93,34 @@ main {
         img {
             width: 50px;
         }
+    }
+
+    // charachter
+
+    .banner_char {
+        height: 40px;
+        background-color: blue;
+    }
+
+    .comic_description {
+        .buy_details {
+            margin: 2rem 0;
+            padding: 0.5rem;
+            background-color: lightgreen;
+            border: 1px solid blue;
+
+            .col-5 {
+                border-left: 1px solid;
+            }
+        }
+    }
+}
+
+footer {
+    .footer_top {
+        background-image: url(../img/footer-bg.jpg);
+        padding: 2rem 0;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
