@@ -7,7 +7,7 @@
     </section>
 
     <section class="comics_card ">
-        <div class="container">
+        <div class="container text-center">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 g-4">
                 @forelse($comics as $comic)
                 <div class="col">
@@ -26,6 +26,7 @@
                 </div>
                 @endforelse
             </div>
+            <button class="btn btn-primary mt-4 px-5 rounded-0 text-uppercase">load more</button>
         </div>
     </section>
 
