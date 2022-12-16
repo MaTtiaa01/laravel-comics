@@ -77,4 +77,14 @@ main {
             width: 100%;
         }
     }
+
+    section.banner {
+        background-color: blue;
+        padding: 3rem 0;
+        font-size: 0.8rem;
+
+        img {
+            width: 50px;
+        }
+    }
 }

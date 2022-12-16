@@ -14,8 +14,15 @@
 <body>
     @include('partials.header')
     <!-- /header -->
-    @yield('content')
+    <main>
+
+        @yield('content')
+
+        @include('partials.banner')
+        <!-- /banner -->
+    </main>
     <!-- /main -->
+
     @include('partials.footer')
     <!-- /footer -->
 </body>
