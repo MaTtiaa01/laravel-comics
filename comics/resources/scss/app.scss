@@ -75,13 +75,24 @@ main {
         padding-top: 4rem;
         padding-bottom: 2rem;
 
-        .card {
-            background-color: transparent;
-            border: none;
-        }
+        .container {
+            position: relative;
 
-        img {
-            width: 100%;
+            button.p-2 {
+                font-size: 1.5rem;
+                position: absolute;
+                left: 0;
+                top: -5rem;
+            }
+
+            .card {
+                background-color: transparent;
+                border: none;
+            }
+
+            img {
+                width: 100%;
+            }
         }
     }
 
